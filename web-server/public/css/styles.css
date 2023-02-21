@@ -1,0 +1,97 @@
+
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+    color: #ec8600;
+    border-top: 1px solid #eeeeee;
+    margin-top: 50px;
+    padding: 16px 0;
+}
+
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.aboutMe {
+    font-style: italic;
+}
+
+.nav-item:hover{
+    background-color: #ec860083;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ec8600;
+    
+}
+
+.portrait{
+    width: 250px;
+} 
+
+.weather{
+    width: 400px;
+} 
+
+.cloud{
+    width: 200px;
+} 
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+button:hover{
+    background-color: #ec8600;
+    border: none;
+}
+
+#message-1, #message-2 {
+    color: #ec8600;
+    font-weight: bold;
+}
+
+ #message-2{
+    color: #ec8600;
+    font-weight:300;
+} 
