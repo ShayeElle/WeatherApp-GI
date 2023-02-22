@@ -1,11 +1,11 @@
 
+
 body {
     color: #333333;
     font-family: arial;
-    max-width: 700px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -13,6 +13,7 @@ body {
 
 .main-content{
     flex-grow: 1;
+    text-align: center;
 }
 
 footer {
@@ -21,7 +22,6 @@ footer {
     margin-top: 50px;
     padding: 16px 0;
 }
-
 
 header {
     margin-top: 16px;
@@ -34,8 +34,10 @@ h1 {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 70px;
     margin-bottom: 16px;
+    color: #ec8600;
+
 }
 .aboutMe {
     font-style: italic;
@@ -54,10 +56,12 @@ header a:hover {
 
 .portrait{
     width: 250px;
+    padding-bottom: 20px;
 } 
 
 .weather{
-    width: 400px;
+    width: 500px;
+    padding-bottom: 20px;
 } 
 
 .cloud{
