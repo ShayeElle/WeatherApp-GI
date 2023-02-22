@@ -41,10 +41,6 @@ h1 {
     font-style: italic;
 }
 
-.nav-item:hover{
-    background-color: #ec860083;
-}
-
 header a {
     color: #888888;
     margin-right: 16px;
